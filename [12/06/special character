@@ -1,11 +1,13 @@
+#include <stdio.h>
+
 int main()
 {
-    int year;
-    printf("enter no:");
-    scanf("%d",&year);
-    if((year%4 == 0 && year%100 != 0) || year%400 == 0){
-        printf("it is leap year");
-    }else{
-        printf("It is not leap year");
-    }
+    char ch;
+    scanf("%c",&ch);
+    (ch >='A'&& ch<='Z' ||ch >= 'a' && ch<='z')?
+        printf("it is alphabet"):
+    (ch >='0' && ch<='9')?
+        printf("it is number"):
+    
+        printf("it is special character");
 }
