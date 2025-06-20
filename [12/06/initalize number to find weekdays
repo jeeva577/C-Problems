@@ -1,0 +1,9 @@
+int main()
+{
+   int n;
+   scanf("%d",&n);
+   (n == 1)?printf("monday"):(n == 2)?printf("tuesday")
+   :(n == 3)?printf("wednesday"):(n == 4)?printf("thursday"):
+   (n == 5)?printf("friday"):(n == 6)?printf("saturday"):
+   (n == 7)?printf("sunday"):printf("invalid");
+}
